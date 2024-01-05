@@ -1,0 +1,193 @@
+WHAT ARE VARIABLES
+
+    Variables are Containers for Storing Data
+    JavaScript Variables can be declared in 4 ways:
+
+    -Automatically
+    -Using var
+    -Using let
+    -Using const
+
+
+Automaticaly declaring:
+    x = 5;
+    y = 6;
+    z = x + y;
+
+
+Using var
+
+    var a = 5;
+    var b = 6;
+    var c = a + b;
+
+Using let
+
+    let d = c + z;
+
+using const
+
+    const e = d - 12;
+
+
+When to Use var, let, or const?
+1. Always declare variables
+
+2. Always use const if the value should not be changed
+
+3. Always use const if the type should not be changed (Arrays and Objects)
+
+4. Only use let if you can't use const
+
+5. Only use var if you MUST support old browsers.
+
+
+
+
+let Can be reassigned,var Can be reassigned and updated,const Cannot be reassigned. It is a constant and cannot have its value changed once assigned.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WHAT ARE ARROW FUNCTIONS
+
+Arrow functions allow us to write shorter function syntax:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WHAT ARE TEMPLATE lierals
+
+String Templates,Template Strings,Template Literals use back-ticks (``) rather than the quotes ("") to define a string
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+COMMENTS
+
+methods to write piece of information that do not involve the code itself
+may be a way to explain chunks of code 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+String concatenation using the + operator and string interpolation using template literals (${}) are two ways to combine strings in JavaScript.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WHAT IS HOISTING
+It is declaration of a variable 
+then assigning it later
+or the other way around
